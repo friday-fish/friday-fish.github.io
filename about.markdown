@@ -13,17 +13,12 @@ We regularly livestream and record the seminar. The link for the livestream is a
 - *Videos and supplementary material*: If you miss or want to revisit one of the talks, you can find recordings and supplementary material on this website.
 
 # Organising committee
-- [Marius Crainic][mariuscrainic]
-- [Álvaro del Pino][alvarodelpino]
-- [Jaime Pedregal Pastor][jaimepedregal]
-- [Douwe Hoekstra][douwehoekstra]
+{% for member in site.data.organizers %}
+- [{{ member.name }}]({{ member.url }})
+{% endfor %}
 
 # Contact information
 For inquiries you can email to `d.hoekstra [at] uu.nl`.
 
-[mariuscrainic]: https://webspace.science.uu.nl/~crain101/
-[alvarodelpino]: https://alvarodelpino.wordpress.com/
-[jaimepedregal]: https://www.uu.nl/medewerkers/JPedregalPastor
-[douwehoekstra]: https://www.dhoekstra.xyz
 [calendar]: https://utrechtgeometrycentre.nl/calendar/
 [mailinglist]: https://mailman.science.uu.nl/mailman/listinfo/friday-fish

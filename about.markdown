@@ -3,16 +3,27 @@ layout: page
 title: About
 permalink: /about/
 ---
+The Friday Fish is a weekly seminar on differential geometry that has been taking place in Utrecht since 2004. It started as an activity for researchers, PhD candidates, and visitors in the field of Poisson geometry (partially explaining the name). One of its core aims from the outset was to provide a platform for young mathematicians to present their research, learn new ideas, and to broaden their network. Whereas our goals regarding young researchers have remained the same over time, the focus on Poisson geometry has progressively broadened to include the study of other geometric structures. At the moment, the seminar deals with differential geometry and topology in general.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Practical information
+We regularly livestream and record the seminar. The link for the livestream is announced through our mailing list, and the links to the recordings appear on this website alongside the information of the talk.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+- *When and where*: Talks will be held on Friday; the physical location can be found on this website and in the [calendar of the institute][calendar].
+- *Announcements*: Talks will be announced on this website and through our mailing list. You can sign up to our [mailing list here][mailinglist].
+- *Videos and supplementary material*: If you miss or want to revisit one of the talks, you can find recordings and supplementary material on this website.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+# Organising committee
+- [Marius Crainic][mariuscrainic]
+- [Álvaro del Pino][alvarodelpino]
+- [Jaime Pedregal Pastor][jaimepedregal]
+- [Douwe Hoekstra][douwehoekstra]
 
+# Contact information
+For inquiries you can email to `d.hoekstra [at] uu.nl`.
 
-[jekyll-organization]: https://github.com/jekyll
+[mariuscrainic]: https://webspace.science.uu.nl/~crain101/
+[alvarodelpino]: https://alvarodelpino.wordpress.com/
+[jaimepedregal]: https://www.uu.nl/medewerkers/JPedregalPastor
+[douwehoekstra]: https://www.dhoekstra.xyz
+[calendar]: https://utrechtgeometrycentre.nl/calendar/
+[mailinglist]: https://mailman.science.uu.nl/mailman/listinfo/friday-fish

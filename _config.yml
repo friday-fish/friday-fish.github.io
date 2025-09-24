@@ -22,15 +22,19 @@ title: Friday Fish Seminar
 # email: 
 description: >- # this means to ignore newlines until "baseurl:"
   This is the official website for the Friday Fish seminar hosted at Utrecht University.
-  The Friday Fish is a weekly seminar on Differential Geometry which has been taking place
-  in Utrecht since 2004. At the moment, the seminar deals in general with Differential Geometry and Topology.
+  The Friday Fish is a weekly seminar on differential geometry which has been taking place
+  in Utrecht since 2004. At the moment, the seminar deals in general with differential geometry and topology.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "friday-fish.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://friday-fish.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+collections:
+  - reading_seminars
+  - talks
 
 # Exclude from processing.
 # The following items will not be processed, by default.

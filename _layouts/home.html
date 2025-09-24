@@ -30,10 +30,11 @@ layout: default
     </ul>
   {%- endif -%}
 
-  {%- if site.talks.size > 0 -%}
+  {% assign future_talks = site.talks | in_future %}
+  {%- if future_talks.size > 0 -%}
     <h2 class="post-list-heading">Upcoming Talks</h2>
     <ul class="post-list">
-      {%- for talk in site.talks -%}
+      {%- for talk in future_talks -%}
       <li>
 	<span class="talk-meta">{{ talk.date | date: "%b %-d, %Y" }}</span>
 	<h3 class="talk-header">
@@ -51,10 +52,11 @@ layout: default
     </ul>
     {%- endif -%}
 
-    {%- if site.talks.size > 0 -%}
+    {%- assign previous_talks = site.talks | in_past %}
+    {%- if previous_talks.size > 0 -%}
     <h2 class="post-list-heading">Previous Talks</h2>
     <ul class="post-list">
-      {%- for talk in site.talks -%}
+      {%- for talk in previous_talks -%}
       <li>
 	<span class="talk-meta">{{ talk.date | date: "%b %-d, %Y" }}</span>
 	<h3 class="talk-header">

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <span class="talk-speaker">{{ page.speaker }} {% if page.affiliation %}({{page.affiliation}}){% endif %}</span>
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="talk-page-info">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      &mdash; <span>Time: {{ page.time }}</span> &mdash; <span>Location: {{ page.location }}</span>{% if page.video_url %}
+      &mdash; <a class="talk-url" href="{{ page.video_url }}">Video</a>
+    {% endif %}</p>
+  </header>
+
+  <div class="post-content">
+
+    <h2>Abstract</h2>
+    <p>{{ page.abstract }}</p>
+
+    {{ content }}
+  </div>
+  
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

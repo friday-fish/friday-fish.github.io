@@ -31,10 +31,7 @@ url: "https://friday-fish.github.io" # the base hostname & protocol for your sit
 theme: minima
 plugins:
   - jekyll-feed
-
-collections:
-  - reading_seminars
-  - talks
+    
 
 # Exclude from processing.
 # The following items will not be processed, by default.

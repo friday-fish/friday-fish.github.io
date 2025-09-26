@@ -30,11 +30,11 @@ layout: default
     </ul>
   {%- endif -%}
 
-  {% assign future_talks = site.talks | in_future %}
+  {% assign future_talks = site.posts | where: "layout", "talk" | in_future %}
   {%- if future_talks.size > 0 -%}
     <h2 class="post-list-heading">Upcoming Talks</h2>
     <ul class="post-list">
-      {%- for talk in future_talks -%}
+      {%- for talk in future_talks limit: 5 -%}
       <li>
 	<span class="talk-meta">{{ talk.date | date: "%b %-d, %Y" }}</span>
 	<h3 class="talk-header">
@@ -43,20 +43,16 @@ layout: default
 	  </a>
 	</h3>
 	<span class="talk-info">Time: {{ talk.time }} &mdash; Location: {{ talk.location }}</span>
-	<details>
-	  <summary>Abstract</summary>
-	  {{ talk.abstract }}
-	</details>
       </li>
       {%- endfor -%}
     </ul>
     {%- endif -%}
 
-    {%- assign previous_talks = site.talks | in_past %}
+    {%- assign previous_talks = site.posts | where: "layout", "talk" | in_past %}
     {%- if previous_talks.size > 0 -%}
     <h2 class="post-list-heading">Previous Talks</h2>
     <ul class="post-list">
-      {%- for talk in previous_talks -%}
+      {%- for talk in previous_talks limit: 5 -%}
       <li>
 	<span class="talk-meta">{{ talk.date | date: "%b %-d, %Y" }}</span>
 	<h3 class="talk-header">

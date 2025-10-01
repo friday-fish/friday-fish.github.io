@@ -1,0 +1,21 @@
+---
+title: Reading seminars
+layout: default
+---
+<h1>Reading seminars</h1>
+<p>On this page you can find a list of all reading seminars we have hosted.</p>
+
+    {%- if site.reading_seminars.size > 0 -%}
+    <ul class="post-list">
+    {%- for post in site.reading_seminars -%}
+    <li>
+      <h3>
+	<a class="post-link" href="{{ post.url | relative_url }}">
+	  {{ post.title | escape }}
+	</a>
+      </h3>
+    </li>
+    {%- endfor -%}
+    </ul>
+    {%- endif -%}
+

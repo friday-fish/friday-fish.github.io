@@ -1,0 +1,25 @@
+---
+layout: default
+title: Archive
+---
+<h1>Archive</h1>
+<p>
+  Here you can find a list of all previous talks that we have had in the seminar.
+</p>
+    {%- assign previous_talks = site.posts | where: "layout", "talk" | in_past %}
+    {%- if previous_talks.size > 0 -%}
+    <h2 class="post-list-heading">Previous Talks</h2>
+    <ul class="post-list">
+      {%- for talk in previous_talks limit: 5 -%}
+      <li>
+	<span class="talk-meta">{{ talk.date | date: "%b %-d, %Y" }}</span>
+	<h3 class="talk-header">
+	  <a class="post-link" href="{{ talk.url | relative_url }}">
+	    {{ talk.speaker | capitalize }} - {{ talk.title | capitalize }}
+	  </a>
+	</h3>
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+

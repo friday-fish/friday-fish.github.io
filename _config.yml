@@ -27,6 +27,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://friday-fish.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+collections:
+  reading_seminars:
+    output: true
+
 # Build settings
 theme: minima
 plugins:

@@ -9,6 +9,22 @@ layout: default
 
     {{ content }}
 
+    {% assign current_reading_seminars = site.reading_seminars | where: "active", true %}
+    {%- if current_reading_seminars.size > 0 -%}
+    <h2 class="post-list-heading">Current reading seminar(s)</h2>
+    <ul class="post-list">
+    {%- for post in current_reading_seminars -%}
+    <li>
+      <h3>
+	<a class="post-link" href="{{ post.url | relative_url }}">
+	  {{ post.title | escape }}
+	</a>
+      </h3>
+    </li>
+    {%- endfor -%}
+    </ul>
+    {%- endif -%}
+
     {% assign current_posts = site.posts | where: "active", true %}
       {%- if current_posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "General announcements" }}</h2>

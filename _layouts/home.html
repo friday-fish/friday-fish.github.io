@@ -9,6 +9,8 @@ layout: default
 
     {{ content }}
 
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    
     {% assign current_reading_seminars = site.reading_seminars | where: "active", true %}
     {%- if current_reading_seminars.size > 0 -%}
     <h2 class="post-list-heading">Current reading seminar(s)</h2>
@@ -31,7 +33,6 @@ layout: default
     <ul class="post-list">
       {%- for post in current_posts -%}
       <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
@@ -52,7 +53,7 @@ layout: default
     <ul class="post-list">
       {%- for talk in future_talks limit: 5 -%}
       <li>
-	<span class="talk-meta">{{ talk.date | date: "%b %-d, %Y" }}</span>
+	<span class="talk-meta">{{ talk.date | date: date_format }}</span>
 	<h3 class="talk-header">
 	  <a class="post-link" href="{{ talk.url | relative_url }}">
 	    {{ talk.speaker }} - {{ talk.title }}
@@ -70,7 +71,7 @@ layout: default
     <ul class="post-list">
       {%- for talk in previous_talks limit: 5 -%}
       <li>
-	<span class="talk-meta">{{ talk.date | date: "%b %-d, %Y" }}</span>
+	<span class="talk-meta">{{ talk.date | date: date_format }}</span>
 	<h3 class="talk-header">
 	  <a class="post-link" href="{{ talk.url | relative_url }}">
 	    {{ talk.speaker | capitalize }} - {{ talk.title | capitalize }}

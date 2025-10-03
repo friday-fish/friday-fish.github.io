@@ -8,13 +8,13 @@ layout: default
   </header>
   <div class="post-content">
     {{ content }}
-
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <h2>Talks</h2>
     {% assign seminar_talks = site.talks | where: "seminar", page.key %}
     <ul class="post-list">
     {%- for talk in seminar_talks -%}
           <li>
-	<span class="talk-meta">{{ talk.date | date: "%b %-d, %Y" }}</span>
+	<span class="talk-meta">{{ talk.date | date: date_format }}</span>
 	<h3 class="talk-header">
 	  <a class="post-link" href="{{ talk.url | relative_url }}">
 	    {{ talk.speaker }} - {{ talk.title }}

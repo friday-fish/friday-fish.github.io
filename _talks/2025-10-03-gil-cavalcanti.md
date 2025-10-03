@@ -1,7 +1,8 @@
 ---
 layout: talk
 talk_date: 2025-10-03
-time: "15:00"
+start_time: "15:00"
+end_time: "17:00"
 location: HFG 707
 abstract: >
   Yada yada

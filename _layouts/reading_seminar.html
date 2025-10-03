@@ -10,7 +10,7 @@ layout: default
     {{ content }}
 
     <h2>Talks</h2>
-    {% assign seminar_talks = site.posts | where: "seminar", page.key %}
+    {% assign seminar_talks = site.talks | where: "seminar", page.key %}
     <ul class="post-list">
     {%- for talk in seminar_talks -%}
           <li>

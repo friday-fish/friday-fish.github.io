@@ -1,5 +1,6 @@
 ---
 layout: talk
+talk_date: 2024-12-13
 time: "12:00"
 title: Test talk
 speaker: Douwe Hoekstra

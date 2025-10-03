@@ -30,6 +30,8 @@ url: "https://friday-fish.github.io" # the base hostname & protocol for your sit
 collections:
   reading_seminars:
     output: true
+  talks:
+    output: true
 
 # Build settings
 theme: minima

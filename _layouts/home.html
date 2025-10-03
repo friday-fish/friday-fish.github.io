@@ -76,6 +76,7 @@ layout: default
 	    {{ talk.speaker | capitalize }} - {{ talk.title | capitalize }}
 	  </a>
 	</h3>
+	{%- if talk.video_url -%}<span class="talk-info"><a href="{{ talk.video_url }}">Video</a></span>{%- endif -%}{%- if talk.slides_url -%}<span class="talk-info"><a href="{{ talk.slides_url }}">Slides</a></span>{%- endif -%}{%- if talk.notes_url -%}<span class="talk-info"><a href="{{ talk.notes_url }}">Notes</a></span>{%- endif -%}
       </li>
       {%- endfor -%}
     </ul>

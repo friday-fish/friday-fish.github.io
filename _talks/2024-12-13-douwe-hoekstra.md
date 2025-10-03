@@ -6,5 +6,8 @@ title: Test talk
 speaker: Douwe Hoekstra
 abstract: This is a test abstract
 seminar: seiberg-witten
+video_url: https://youtube.com/
+slides_url: https://example.com/
+notes_url: https://example.com/
 ---
 Hello world

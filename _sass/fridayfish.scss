@@ -5,7 +5,8 @@
 
 .talk-info {
   font-size: $base-font-size;
-  color: $grey-color-dark;    
+  color: $grey-color-dark;
+  padding-right: 1em;
 }
 
 .talk-header {
@@ -18,4 +19,8 @@
 
 .talk-page-info {
     font-size: $base-font-size * 1.125;
+}
+
+.talk-url {
+    padding-right: 1em;
 }

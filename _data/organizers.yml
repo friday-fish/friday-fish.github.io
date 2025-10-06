@@ -1,8 +1,12 @@
 - name: Marius Crainic
   url: https://webspace.science.uu.nl/~crain101/
+  current: false
 - name: Álvaro del Pino
   url: https://alvarodelpino.wordpress.com/
+  current: false
 - name: Jaime Pedregal Pastor
   url: https://www.uu.nl/medewerkers/JPedregalPastor
+  current: true
 - name: Douwe Hoekstra
   url: https://www.dhoekstra.xyz
+  current: true

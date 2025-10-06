@@ -12,13 +12,20 @@ We regularly livestream and record the seminar. The link for the livestream is a
 - *Announcements*: Talks will be announced on this website and through our mailing list. You can sign up to our [mailing list here][mailinglist].
 - *Videos and supplementary material*: If you miss or want to revisit one of the talks, you can find recordings and supplementary material on this website.
 
+# Contact information
+For inquiries you can email to `d.hoekstra [at] uu.nl`.
+
 # Organising committee
-{% for member in site.data.organizers %}
+{% assign current_organizers = site.data.organizers | where: "current", true %}
+{% for member in current_organizers %}
 - [{{ member.name }}]({{ member.url }})
 {% endfor %}
 
-# Contact information
-For inquiries you can email to `d.hoekstra [at] uu.nl`.
+In the past, the following people have been organizers of the Friday Fish seminar:
+{% assign past_organizers = site.data.organizers | where: "current", false %}
+{% for member in past_organizers %}
+- [{{ member.name }}]({{ member.url }})
+{% endfor %}
 
 [calendar]: https://utrechtgeometrycentre.nl/calendar/
 [mailinglist]: https://mailman.science.uu.nl/mailman/listinfo/friday-fish

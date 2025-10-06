@@ -23,6 +23,12 @@ layout: default
   </header>
 
   <div class="post-content">
+    {%- if page.seminar -%}
+    <p>This talk is part of the following reading seminar:
+      {% assign seminar = site.reading_seminars | where: "key", page.seminar | first %}
+      <a href="{{ seminar.url }}">{{ seminar.title }}</a>.
+    </p>
+    {%- endif -%}
 
     <h2>Abstract</h2>
     <p>{{ page.abstract }}</p>

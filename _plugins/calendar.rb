@@ -10,6 +10,9 @@ module Jekyll
 
       site.collections['talks'].docs.each do |talk|
         cal.event do |e|
+          if talk.data["talk_date"] < Date.today
+            next
+          end
           e.uid = SecureRandom.uuid
           start_time = Time.parse(talk.data["talk_date"].iso8601 + " " + talk.data["start_time"])
           end_time = Time.parse(talk.data["talk_date"].iso8601 + " " + talk.data["end_time"])

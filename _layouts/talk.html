@@ -11,7 +11,7 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
-      &mdash; <span>Time: {{ page.time }}</span> &mdash; <span>Location: {{ page.location }}</span><br/>{% if page.video_url %}
+      {%- if page.start_time -%}&mdash; <span>Time: {{ page.start_time }}</span>{%- endif -%} {%- if page.location -%}&nbsp;&mdash; <span>Location: {{ page.location }}</span>{%- endif -%}<br/>{% if page.video_url %}
       <a class="talk-url" href="{{ page.video_url }}">Video</a>
       {% endif %}
     {% if page.slides_url %}

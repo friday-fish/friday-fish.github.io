@@ -53,7 +53,12 @@ layout: default
     <ul class="post-list">
       {%- for talk in future_talks limit: 5 -%}
       <li>
-	<span class="talk-meta">{{ talk.date | date: date_format }}</span>
+	<span class="talk-meta">{{ talk.date | date: date_format }}
+{%- if talk.seminar -%}
+	  {% assign seminar = site.reading_seminars | where: "key", talk.seminar | first %}
+	  | {{ seminar.title }}
+	  {%- endif -%}
+	</span>
 	<h3 class="talk-header">
 	  <a class="post-link" href="{{ talk.url | relative_url }}">
 	    {{ talk.speaker }} - {{ talk.title }}
@@ -71,7 +76,12 @@ layout: default
     <ul class="post-list">
       {%- for talk in previous_talks limit: 5 -%}
       <li>
-	<span class="talk-meta">{{ talk.date | date: date_format }}</span>
+	<span class="talk-meta">{{ talk.date | date: date_format }}
+	  {%- if talk.seminar -%}
+	  {% assign seminar = site.reading_seminars | where: "key", talk.seminar | first %}
+	  | {{ seminar.title }}
+	  {%- endif -%}
+	</span>
 	<h3 class="talk-header">
 	  <a class="post-link" href="{{ talk.url | relative_url }}">
 	    {{ talk.speaker | capitalize }} - {{ talk.title | capitalize }}

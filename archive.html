@@ -7,7 +7,7 @@ title: Archive
   Here you can find a list of all previous talks that we have had in the seminar.
 </p>
 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    {%- assign previous_talks = site.talks | in_past %}
+    {%- assign previous_talks = site.talks | in_past | sort: "date" | reverse %}
     {%- if previous_talks.size > 0 -%}
     <h2 class="post-list-heading">Previous Talks</h2>
     <ul class="post-list">

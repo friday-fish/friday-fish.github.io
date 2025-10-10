@@ -10,7 +10,7 @@ layout: default
     {{ content }}
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <h2>Talks</h2>
-    {% assign seminar_talks = site.talks | where: "seminar", page.key %}
+    {% assign seminar_talks = site.talks | where: "seminar", page.key | sort: "date" %}
     <ul class="post-list">
     {%- for talk in seminar_talks -%}
           <li>

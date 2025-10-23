@@ -85,7 +85,7 @@ layout: default
 	</span>
 	<h3 class="talk-header">
 	  <a class="post-link" href="{{ talk.url | relative_url }}">
-	    {{ talk.speaker | capitalize }} - {{ talk.title | capitalize }}
+	    {{ talk.speaker }} - {{ talk.title }}
 	  </a>
 	</h3>
 	{%- if talk.video_url -%}<span class="talk-info"><a href="{{ talk.video_url }}">Video</a></span>{%- endif -%}{%- if talk.slides_url -%}<span class="talk-info"><a href="{{ talk.slides_url }}">Slides</a></span>{%- endif -%}{%- if talk.notes_url -%}<span class="talk-info"><a href="{{ talk.notes_url }}">Notes</a></span>{%- endif -%}

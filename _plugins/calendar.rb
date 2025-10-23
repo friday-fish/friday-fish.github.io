@@ -10,7 +10,8 @@ module Jekyll
 
       site.collections['talks'].docs.each do |talk|
         cal.event do |e|
-          if talk.data["talk_date"] < Date.today
+          date = Date.parse(talk.data["talk_date"])
+          if date < Date.today
             next
           end
           e.uid = SecureRandom.uuid

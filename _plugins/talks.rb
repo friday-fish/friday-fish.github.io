@@ -3,14 +3,20 @@ module Jekyll
     def in_future(input)
       today = Date.today
       input.select do |item|
-        date = Date.parse(item.talk_date)
+        date = item.talk_date
+        if date.is_a?(String)
+          date = Date.parse(date)
+        end
         date >= today
       end
     end
     def in_past(input)
       today = Date.today
       input.select do |item|
-        date = Date.parse(item.talk_date)
+        date = item.talk_date
+        if date.is_a?(String)
+          date = Date.parse(date)
+        end
         date < today
       end
     end

@@ -8,14 +8,18 @@ module Jekyll
     def make_calendar(site, config)
       cal = Icalendar::Calendar.new
 
-      site.collections['talks'].docs.each do |talk|
-        cal.event do |e|
+      upcoming_talks = site.collections['talks'].docs.select do |talk|
           date = talk.data["talk_date"]
           if date.is_a?(String)
             date = Date.parse(date)
           end
-          if date < Date.today
-            next
+          date >= Date.today
+      end
+      upcoming_talks.each do |talk|
+        cal.event do |e|
+          date = talk.data["talk_date"]
+          if date.is_a?(String)
+            date = Date.parse(date)
           end
           e.uid = SecureRandom.uuid
           start_time = Time.parse(date.iso8601 + " " + talk.data["start_time"])

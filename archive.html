@@ -12,14 +12,7 @@ title: Archive
     <h2 class="post-list-heading">Previous Talks</h2>
     <ul class="post-list">
       {%- for talk in previous_talks -%}
-      <li>
-	<span class="talk-meta">{{ talk.date | date: date_format }}</span>
-	<h3 class="talk-header">
-	  <a class="post-link" href="{{ talk.url | relative_url }}">
-	    {{ talk.speaker }} - {{ talk.title }}
-	  </a>
-	</h3>
-      </li>
+      {% include past_talk.html talk=talk %}
       {%- endfor -%}
     </ul>
   {%- endif -%}

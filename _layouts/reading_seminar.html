@@ -9,21 +9,37 @@ layout: default
   <div class="post-content">
     {{ content }}
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    <h2>Talks</h2>
-    {% assign seminar_talks = site.talks | where: "seminar", page.key | sort: "date" %}
+    {%- if page.active -%}
+    {% assign seminar_talks = site.talks | where:
+    "seminar", page.key %}
+      {% assign future_talks = seminar_talks | in_future | sort: "date" %}
+  {%- if future_talks.size > 0 -%}
+    <h2 class="post-list-heading">Upcoming Talks</h2>
     <ul class="post-list">
-    {%- for talk in seminar_talks -%}
-          <li>
-	<span class="talk-meta">{{ talk.date | date: date_format }}</span>
-	<h3 class="talk-header">
-	  <a class="post-link" href="{{ talk.url | relative_url }}">
-	    {{ talk.speaker }} - {{ talk.title }}
-	  </a>
-	</h3>
-	<span class="talk-info">Time: {{ talk.time }} &mdash; Location: {{ talk.location }}</span>
-	  </li>
-	  {%- endfor -%}
+      {%- for talk in future_talks limit: 5 -%}
+      {% include talk.html talk=talk %}
+      {%- endfor -%}
     </ul>
+    {%- endif -%}
+
+    {%- assign previous_talks = seminar_talks | in_past | sort: "date" | reverse %}
+    {%- if previous_talks.size > 0 -%}
+    <h2 class="post-list-heading">Previous Talks</h2>
+    <ul class="post-list">
+      {%- for talk in previous_talks limit: 5 -%}
+      {% include past_talk.html talk=talk %}
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+    {%- else -%}
+    <h2>Talks</h2>
+    {% assign seminar_talks = site.talks | where:
+    "seminar", page.key | sort: "date" %}
+    <ul class="post-list">
+    {%- for talk in seminar_talks -%} {% include past_talk.html talk=talk %} {%- endfor -%}
+    </ul>
+    {%- endif -%}
   </div>
 
 </article>

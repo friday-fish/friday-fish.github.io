@@ -13,4 +13,5 @@ abstract: >
   bundles and Dirac operators. Then we will introduce the equations and their gauge symmetries, and explain how they can be
   extended to Sobolev spaces so that weak solutions are allowed. If time permits, we will briefly sketch how the Seiberg–Witten
   equations can be regarded as the smallest topologically allowed minima of the Seiberg–Witten action functional.
+video_url: https://youtu.be/2S9rej3kdFc
 ---

@@ -28,6 +28,7 @@ module Jekyll
           e.dtend = end_time
           e.summary = talk.data['speaker'] + ": " + talk.data['title']
           e.description = talk.data['abstract']
+          e.location = talk.data['location']
           e.url = talk.data['redirectURL']
         end
       end

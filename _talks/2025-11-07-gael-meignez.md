@@ -5,7 +5,7 @@ title: A full h-principle for foliations by surfaces of higher codimensions
 start_time: '14:30'
 end_time: '15:30'
 location: HFG 707
-speaker: Gaël Meignez
+speaker: Gaël Meigniez
 affiliation: Institut de Mathématiques de Marseille
 abstract: >
   I will give the elements of a proof that on every closed

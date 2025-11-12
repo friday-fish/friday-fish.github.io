@@ -22,44 +22,9 @@
         rubyNix = ruby-nix.lib pkgs;
         bundixcli = bundix.packages.${system}.default;
 
-        deps = with pkgs; [ env ruby bundixcli ];
-
-        inherit (rubyNix {
-          name = "friday-fish.github.io";
-          gemset = ./gemset.nix;
-          gemConfig = pkgs.defaultGemConfig;
-        })
-          env ruby;
+        deps = with pkgs; [ ruby bundixcli ];
       in
         {
-          packages = let
-            bundlecli = pkgs.writeShellApplication {
-              name = "bundle";
-              runtimeInputs = deps;
-              text = ''
-export BUNDLE_PATH=vendor/bundle
-bundle "$@"
-'';
-            };
-            jekyll = pkgs.writeShellApplication {
-              name = "jekyll";
-              runtimeInputs = deps;
-              text = ''
-if [ $# -eq 0 ]; then
-   jekyll build
-else
-  jekyll "$@"
-fi
-'';
-            };
-          in
-            {
-              jekyll = jekyll;
-              bundle = bundlecli;
-              bundix = bundixcli;
-              default = jekyll;
-            };
-
           devShells.default = pkgs.mkShell {
             shellHook = ''
 export BUNDLE_PATH=vendor/bundle

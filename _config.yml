@@ -34,9 +34,10 @@ collections:
     output: true
 
 # Build settings
-theme: minima
+theme: seminima
 plugins:
   - jekyll-feed
+  - seminima
 
 minima:
   date_format: "%B %e, %Y"

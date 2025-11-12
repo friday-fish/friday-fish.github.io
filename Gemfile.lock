@@ -96,7 +96,7 @@ GEM
       google-protobuf (~> 4.31)
     sass-embedded (1.94.0-x86_64-linux-gnu)
       google-protobuf (~> 4.31)
-    seminima (0.1.3)
+    seminima (0.1.4)
       icalendar (~> 2.12)
       jekyll (~> 4.4)
       jekyll-feed (~> 0.9)

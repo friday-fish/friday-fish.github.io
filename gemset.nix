@@ -530,12 +530,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "13d1j2p051vklnsypw34j78kzpnn810yysjsdgv7x00pckx2q39f";
+      sha256 = "1hd091xcpfx24rvdp7zv5rcjmi83v3yhvmm7f65nhaa0jjld1f38";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "0.1.3";
+    version = "0.1.4";
   };
   terminal-table = {
     dependencies = ["unicode-display_width"];

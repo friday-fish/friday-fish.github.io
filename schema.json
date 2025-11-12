@@ -1,0 +1,66 @@
+{
+    "talk": {
+	"filename": "%date%-%speaker%.md",
+	"fields": {
+	    "date": {
+		"type": "date",
+		"optional": false
+	    },
+	    "start_time": {
+		"type": "time",
+		"optional": false
+	    }
+	    "end_time": {
+		"type": "time",
+		"optional": false
+	    }
+	    "location": {
+		"type": "text",
+		"optional": false
+	    }
+	    "title": {
+		"type": "text",
+		"optional": false
+	    },
+	    "speaker": {
+		"type": "text",
+		"optional": false
+	    },
+	    "affiliation": {
+		"type": "text",
+		"optional": true
+	    },
+	    "abstract": {
+		"type": "longtext",
+		"optional": false
+	    },
+	    "video_url": {
+		"type": "text",
+		"optional": true
+	    },
+	    "slides_url": {
+		"type": "text",
+		"optional": true
+	    },
+	    "slides_url": {
+		"type": "text",
+		"optional": true
+	    },
+	},
+	"content": true
+    },
+    "reading_seminar": {
+	"filename": "%title%.md",
+	"fields": {
+	    "title": {
+		"type": "text",
+		"optional": false
+	    },
+	    "key": {
+		"type": "key",
+		"source": "https://friday-fish.github.io/reading_seminars.json"
+	    }
+	},
+	"content": true
+    }
+}

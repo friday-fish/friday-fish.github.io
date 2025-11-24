@@ -7,6 +7,7 @@ end_time: '15:30'
 location: HFG 707
 speaker: Gaël Meigniez
 affiliation: Institut de Mathématiques de Marseille
+video_url: https://youtu.be/58Otz2ne98s
 abstract: >
   I will give the elements of a proof that on every closed
   manifold of dimension more than 3, the space of the smooth

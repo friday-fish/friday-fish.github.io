@@ -8,5 +8,5 @@ end_time: '17:00'
 location: HFG 707
 speaker: Douwe Hoekstra
 abstract: >
-  In this talk we will put a good topology on the moduli space of solutions of the Seiberg-Witten equations. We will then show that the moduli space is in fact a compact topological space.
+  In this talk we will study the topology of the moduli space. In particular, we will show that it is a Hausdorff and compact space.
 ---

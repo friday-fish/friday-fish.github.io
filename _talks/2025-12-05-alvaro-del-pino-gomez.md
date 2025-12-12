@@ -7,6 +7,7 @@ start_time: '15:00'
 end_time: '17:00'
 location: HFG 707
 speaker: Álvaro del Pino Gómez
+video_url: https://youtu.be/GuMLSvTM80A
 abstract: >
   When our ambient manifold is Kähler, the Seiberg-Witten equations can be
   rewritten in terms of certain holomorphic objects called vortices (namely,

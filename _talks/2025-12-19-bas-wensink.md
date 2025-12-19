@@ -6,6 +6,7 @@ title: The Seiberg-Witten equations on cylinders
 start_time: '12:30'
 end_time: '14:30'
 location: HFG 707
+video_url: https://youtu.be/Q3vRHun1oXQ
 speaker: Bas Wensink
 abstract: >
   In this talk, we will see the Seiberg-Witten equations on cylinders and applications to the

@@ -26,3 +26,6 @@ This fall we will have a seminar on Seiberg-Witten theory. The goal is to learn 
 4. Kotschick, Dieter. The Seiberg-Witten invariants of symplectic four-manifolds, in Séminaire Bourbaki : volume 1995/96, exposés 805-819, Astérisque, no. 241 (1997), Talk no. 812, 26 p. [link](https://www.numdam.org/item/SB_1995-1996__38__195_0/).
 5. Hutchings, Michael. 2009. ‘Taubes’s Proof of the Weinstein Conjecture in Dimension Three’. Version 2. Preprint, arXiv. [link](https://doi.org/10.48550/ARXIV.0906.2444).
 6. Ozsvath, Peter, and Zoltan Szabo. 2000. ‘The Symplectic Thom Conjecture’. The Annals of Mathematics 151 (1): 93. [link](https://doi.org/10.2307/121113).
+
+## Lecture notes
+Here you can download the [current draft of our lecture notes](/notes/SW_invariants.pdf).

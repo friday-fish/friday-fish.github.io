@@ -12,7 +12,7 @@ abstract: >
   coordinates $(u,x,y,t)$:
 
   $$
-  {x,y} = 3 u^3, {u,x} = t^2 u^2, {y,u} = 2 t u^3, {x,t} = 2 t^ 3u, {y,t} = -t^2 u^2, {u,t} = 0.
+  \{x,y\} = 3 u^3, \{u,x\} = t^2 u^2, \{y,u\} = 2 t u^3, \{x,t\} = 2 t^ 3u, \{y,t\} = -t^2 u^2, \{u,t\} = 0.
   $$
   
   Away from $W = \{t=0\}$, this defines a symplectic form and it drops

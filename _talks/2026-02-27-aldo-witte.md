@@ -1,11 +1,11 @@
 ---
 layout: talk
 talk_date: '2026-02-27'
-title: Polar groupoids and their resolutions
-start_time: '15:00'
-end_time: '17:00'
+title: Poisson geometry of the space of truncated polynomials
+start_time: '11:00'
+end_time: '13:00'
 location: HFG 707
-speaker: Rui Loja Fernandes
+speaker: Aldo Witte
 affiliation: Universität Hamburg
 abstract: >
   Consider the following Poisson bracket on $\mathbb{R}^\ast \times \mathbb{R}^3$ with

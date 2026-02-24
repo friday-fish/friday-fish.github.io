@@ -22,4 +22,5 @@ abstract: >
   non-triviality of SW to prove existence of a periodic Reeb orbit,
   which is sufficient for the conjecture.  We will not assume prior
   knowledge of contact geometry or any Floer theory.
+video_url: https://youtu.be/_NKeGPP0qlA
 ---

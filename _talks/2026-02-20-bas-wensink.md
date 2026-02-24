@@ -14,4 +14,5 @@ abstract: >
   to obtain a family of smooth four-manifolds called "Dolgachev
   surfaces", which are homeomorphic, but have different Seiberg-Witten
   invariants, so they are not diffeomorphic.
+video_url: https://youtu.be/AZN0OsYeSRk
 ---

@@ -16,3 +16,11 @@
 - name: Douwe Hoekstra
   url: https://www.dhoekstra.xyz
   current: true
+- name: Maarten Mol
+  url: https://sites.google.com/view/homepage-maarten-mol/home/
+  current: false
+- name: Aaron Gootjes-Dreesbach
+  url: https://awgd.org
+  current: false
+- name: Anna Fokma
+  current: false

@@ -4,11 +4,19 @@
 - name: Álvaro del Pino
   url: https://alvarodelpino.wordpress.com/
   current: false
+- name: Bas Janssens
+  url: https://www.bjadres.nl/
+  current: false
+- name: Francesco Cattafi
+  current: false
+  url: https://sites.google.com/view/francescocattafi/friday-fish
 - name: Maarten Mol
   url: https://sites.google.com/view/homepage-maarten-mol/home/
   current: false
 - name: Aaron Gootjes-Dreesbach
   url: https://www.awgd.org/
+  current: false
+- name: Anna Fokma
   current: false
 - name: Jaime Pedregal Pastor
   url: https://www.uu.nl/medewerkers/JPedregalPastor
@@ -16,11 +24,3 @@
 - name: Douwe Hoekstra
   url: https://www.dhoekstra.xyz
   current: true
-- name: Maarten Mol
-  url: https://sites.google.com/view/homepage-maarten-mol/home/
-  current: false
-- name: Aaron Gootjes-Dreesbach
-  url: https://awgd.org
-  current: false
-- name: Anna Fokma
-  current: false

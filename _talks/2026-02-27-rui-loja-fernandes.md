@@ -21,4 +21,5 @@ abstract: >
   toric manifold. This talk is based on joint work with Marius Crainic
   and David Martínez Torres, as well as on discussions with Maarten
   Mol.
+video_url: https://youtu.be/G4wgW9ESuSE
 ---

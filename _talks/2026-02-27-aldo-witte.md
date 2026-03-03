@@ -40,4 +40,5 @@ abstract: >
   manifolds.
 
   Joint work with Francis Bischoff.
+video_url: https://youtu.be/MMhzK4cMi2o
 ---

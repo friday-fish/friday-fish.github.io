@@ -6,6 +6,7 @@ start_time: '15:00'
 end_time: '17:00'
 location: HFG 707
 speaker: Gil Cavalcanti
-abstract: > Due to the last-minute nature of this talk, there is no abstract.
+abstract: >
+  Due to the last-minute nature of this talk, there is no abstract.
 video_url: https://youtu.be/hR_tster6uo
 ---

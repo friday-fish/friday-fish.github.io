@@ -1,6 +1,6 @@
 ---
 title: Seiberg-Witten theory (Fall 2025)
-active: true
+active: false
 layout: reading_seminar
 key: seiberg-witten
 ---

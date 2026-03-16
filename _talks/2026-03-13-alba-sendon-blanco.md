@@ -16,4 +16,5 @@ abstract: >
   the study of nested manifolds up to cobordism amounts to the study
   of homotopy groups of... bananas! I will discuss this result and
   some of its surprising consequences.
+video_url: https://youtu.be/f_wVdzI1K3k
 ---

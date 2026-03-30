@@ -16,4 +16,5 @@ abstract: >
   symplectic fillings. In this talk we will discuss several examples of
   orderable and non-orderable contact manifolds. The talk is partially based on
   joint work with Dylan Cant and Eric Kilgore, as well as with Egor Shelukhin.
+video_url: https://youtu.be/sUOljrW6zak
 ---

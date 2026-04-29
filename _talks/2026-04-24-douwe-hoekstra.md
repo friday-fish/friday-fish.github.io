@@ -15,4 +15,5 @@ abstract: >
   this approach and how to solve them. In particular, we will touch upon
   extending sections of a jet bundle holonomically from a submanifold to an open
   neighbourhood thereof and a mixed-order version of convex integration.
+video_url: https://youtu.be/puVQ57OPtsQ
 ---

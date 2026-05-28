@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2026-05-29'
+talk_date: '2026-06-05'
 title: Boundary, spectral asymmetry, and the Atiyah-Patodi-Singer index theorem
 start_time: '11:00'
 end_time: '13:00'

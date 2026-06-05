@@ -16,4 +16,5 @@ abstract: >
   pseudoholomorphic curves that prove stability.
 
   This is joint work with Marcelo Alves, Matthias Meiwes and Abror Pirnapasov.
+video_url: https://youtu.be/B5p8oIpgKeI
 ---

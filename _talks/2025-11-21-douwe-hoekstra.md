@@ -1,7 +1,7 @@
 ---
 layout: talk
 seminar: seiberg-witten
-talk_date: '2025-11-21'
+date: '2025-11-21'
 title: Compactness of the moduli space
 start_time: '15:00'
 end_time: '17:00'

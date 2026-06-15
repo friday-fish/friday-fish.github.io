@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2023-01-19'
+date: '2023-01-19'
 title: b-Contact Structures on Tentacular Hyperboloids
 speaker: Jagna Wiśniewska
 abstract: >

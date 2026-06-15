@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2024-11-13'
+date: '2024-11-13'
 title: On the causal discontinuity of Morse Spacetimes
 speaker: Lucas Dahinden
 abstract: >

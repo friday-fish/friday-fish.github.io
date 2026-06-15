@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-05-13'
+date: '2021-05-13'
 title: Lie algebroids as curved Lie algebras
 speaker: Joost Nuiten
 abstract: >

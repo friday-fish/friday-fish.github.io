@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-09-03'
+date: '2020-09-03'
 title: Haefliger's differentiable cohomology
 speaker: Luca Accornero
 abstract: >

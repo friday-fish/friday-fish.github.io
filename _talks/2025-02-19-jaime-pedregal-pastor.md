@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-02-19'
+date: '2025-02-19'
 title: 'Differentiable Stacks II: A Categorical Prologue'
 speaker: Jaime Pedregal Pastor
 abstract: >

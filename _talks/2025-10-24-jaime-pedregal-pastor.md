@@ -1,7 +1,7 @@
 ---
 layout: talk
 seminar: seiberg-witten
-talk_date: '2025-10-24'
+date: '2025-10-24'
 title: The Seiberg–Witten equations
 start_time: '15:00'
 end_time: '17:00'

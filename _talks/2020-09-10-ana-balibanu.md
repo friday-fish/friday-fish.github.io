@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-09-10'
+date: '2020-09-10'
 title: Universal centralizers and Poisson transversals
 speaker: Ana Balibanu
 abstract: >

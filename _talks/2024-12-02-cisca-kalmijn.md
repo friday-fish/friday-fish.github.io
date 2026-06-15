@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2024-12-02'
+date: '2024-12-02'
 title: >-
   A symplectic approach to Gromov--Witten invariants, part I: Pseudoholomorphic
   curves and their moduli spaces

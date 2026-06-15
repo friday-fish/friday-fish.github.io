@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-07-23'
+date: '2020-07-23'
 title: 'Characteristic classes for Lie groupoids: going to the basics'
 speaker: María Amelia Salazar
 abstract: >

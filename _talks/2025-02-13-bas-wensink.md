@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-02-13'
+date: '2025-02-13'
 title: 'Differentiable Stacks I: Stack of Triangles'
 speaker: Bas Wensink
 abstract: >

@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2026-03-13'
+date: '2026-03-13'
 title: Cobordism of nested manifolds
 start_time: '15:00'
 end_time: '17:00'

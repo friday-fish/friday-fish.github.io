@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-07-16'
+date: '2020-07-16'
 title: Symplectic groupoids of elliptic Poisson manifolds
 speaker: Ralph Klaasse
 abstract: >

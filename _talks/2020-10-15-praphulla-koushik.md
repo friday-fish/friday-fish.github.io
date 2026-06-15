@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-10-15'
+date: '2020-10-15'
 title: On two notions of a gerbe over a stack
 speaker: Praphulla Koushik
 abstract: >

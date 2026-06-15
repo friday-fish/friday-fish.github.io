@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-11-12'
+date: '2020-11-12'
 title: Lie groups of Poisson diffeomorphisms
 speaker: Wilmer Smilde
 abstract: >

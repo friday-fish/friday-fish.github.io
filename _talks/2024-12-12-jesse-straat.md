@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2024-12-12'
+date: '2024-12-12'
 title: >-
   An Algebro-Geometric Approach to Gromov--Witten Invariants, part I: In Pursuit
   of Stacks

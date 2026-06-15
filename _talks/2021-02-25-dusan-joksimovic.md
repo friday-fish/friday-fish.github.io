@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-02-25'
+date: '2021-02-25'
 title: Some aspects of $C^0$-symplectic geometry
 speaker: Dušan Joksimović
 abstract: >

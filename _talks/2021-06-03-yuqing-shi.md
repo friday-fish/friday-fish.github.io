@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-06-03'
+date: '2021-06-03'
 title: A glimpse of manifold calculus via embedding spaces
 speaker: Yuqing Shi
 abstract: >

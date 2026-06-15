@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: 2025-10-24
+date: 2025-10-24
 title: The differentiable stack cohomology associated to a regular Lie groupoid
 speaker: Annika Tarnowsky
 affiliation: MPIM Bonn

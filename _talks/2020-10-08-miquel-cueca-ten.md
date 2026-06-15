@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-10-08'
+date: '2020-10-08'
 title: Stacky Lie algebroids
 speaker: Miquel Cueca Ten
 abstract: >

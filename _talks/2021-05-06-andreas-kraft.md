@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-05-06'
+date: '2021-05-06'
 title: Globalizations of the Kontsevich Formality and their Homotopy Classes
 speaker: Andreas Kraft
 abstract: >

@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2023-09-21'
+date: '2023-09-21'
 title: Lie-Rinehart algebras and non-commutative geometry
 speaker: Bjarne Kosmeijer
 abstract: >

@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-05-01'
+date: '2025-05-01'
 title: h-principles for Holomorphic Partial Differential Relations in Stein Manifolds
 speaker: Guillermo Sánchez
 abstract: >

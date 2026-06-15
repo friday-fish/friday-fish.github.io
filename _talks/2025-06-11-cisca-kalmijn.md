@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-06-11'
+date: '2025-06-11'
 title: >-
   Computing quantum cohomology of toric varieties using topological string
   theory

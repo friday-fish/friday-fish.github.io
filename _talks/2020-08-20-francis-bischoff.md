@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-08-20'
+date: '2020-08-20'
 title: Lie groupoids and logarithmic connections
 speaker: Francis Bischoff
 abstract: >

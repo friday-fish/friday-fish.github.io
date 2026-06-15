@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-07-24'
+date: '2025-07-24'
 title: 'The Khovanov homology: a knot invariant'
 speaker: Pjotr Vugts
 abstract: >

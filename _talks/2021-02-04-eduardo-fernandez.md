@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-02-04'
+date: '2021-02-04'
 title: >-
   On the homotopy type of the contactomorphism group of a tight contact
   3-manifold

@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-04-24'
+date: '2025-04-24'
 title: The h-principle fails for prelegendrians in elliptic distributions
 speaker: Álvaro del Pino Gómez
 abstract: >

@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-08-13'
+date: '2020-08-13'
 title: The Atiyah class and ideal systems
 speaker: Madeleine Jotz Lean
 abstract: >

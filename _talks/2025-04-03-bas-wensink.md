@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-04-03'
+date: '2025-04-03'
 title: 'Differentiable Stacks VI: Examples of Differentiable Stacks'
 speaker: Bas Wensink
 abstract: >

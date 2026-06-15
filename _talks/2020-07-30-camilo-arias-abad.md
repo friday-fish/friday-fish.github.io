@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-07-30'
+date: '2020-07-30'
 title: Singular chains on Lie groups and the Cartan relations
 speaker: Camilo Arias Abad
 abstract: >

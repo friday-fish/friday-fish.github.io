@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-11-19'
+date: '2020-11-19'
 title: Strong homotopy structure of Poisson reduction
 speaker: Jonas Schnitzer
 abstract: >

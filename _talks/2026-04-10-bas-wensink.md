@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2026-04-10'
+date: '2026-04-10'
 title: (Stable) generalized complex structures in dimension 4
 start_time: '15:00'
 end_time: '17:00'

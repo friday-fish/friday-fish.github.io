@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-03-11'
+date: '2021-03-11'
 title: Integrating singular foliations with paths
 speaker: Joel Villatoro
 abstract: >

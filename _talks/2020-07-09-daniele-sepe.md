@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-07-09'
+date: '2020-07-09'
 title: 'Symplectic : Contact = Poisson : Jacobi = Affine : Projective.'
 speaker: Daniele Sepe
 abstract: >

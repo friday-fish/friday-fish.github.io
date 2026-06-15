@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-05-15'
+date: '2025-05-15'
 title: A geometric introduction to topological string theory and  mirror symmetry
 speaker: Jesse Straat
 abstract: >

@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-03-13'
+date: '2025-03-13'
 title: 'Differentiable Stacks IV: Differentiable Stacks'
 speaker: Sven Holtrop
 abstract: >

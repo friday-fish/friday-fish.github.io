@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-01-16'
+date: '2025-01-16'
 title: Almost Toric Fibrations and Lagrangian Poincaré non-recurrence
 speaker: Joel Schmitz
 abstract: >

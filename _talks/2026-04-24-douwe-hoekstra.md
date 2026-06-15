@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2026-04-24'
+date: '2026-04-24'
 title: Convex integration implies holonomic approximation
 start_time: '15:00'
 end_time: '17:00'

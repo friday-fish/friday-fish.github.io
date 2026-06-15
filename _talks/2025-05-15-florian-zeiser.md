@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-05-15'
+date: '2025-05-15'
 title: (Infinitesimal) Rigidity for foliations and group actions
 speaker: Florian Zeiser
 abstract: >

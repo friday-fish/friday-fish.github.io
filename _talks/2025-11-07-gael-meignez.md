@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: 2025-11-07
+date: 2025-11-07
 title: A full h-principle for foliations by surfaces of higher codimensions
 start_time: '14:30'
 end_time: '15:30'

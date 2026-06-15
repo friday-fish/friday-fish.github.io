@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2023-10-12'
+date: '2023-10-12'
 title: Reading seminar on stable homotopy theory I
 speaker: Thomas Rot
 abstract: >

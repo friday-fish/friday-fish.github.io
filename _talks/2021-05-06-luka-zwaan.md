@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-05-06'
+date: '2021-05-06'
 title: Poisson manifolds of strong compact type over 2-tori
 speaker: Luka Zwaan
 abstract: >

@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2026-02-27'
+date: '2026-02-27'
 title: Polar groupoids and their resolutions
 start_time: '15:00'
 end_time: '17:00'

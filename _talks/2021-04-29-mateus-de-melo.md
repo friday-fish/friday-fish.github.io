@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-04-29'
+date: '2021-04-29'
 title: Proper groupoids and Riemannian geometry
 speaker: Mateus de Melo
 abstract: >

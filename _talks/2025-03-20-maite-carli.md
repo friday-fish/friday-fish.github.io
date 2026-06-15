@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-03-20'
+date: '2025-03-20'
 title: >-
   Differentiable Stakcs V: Equivalences of differentiable stacks from the Lie
   groupoid perspective; Morita equivalences and G-bibundles

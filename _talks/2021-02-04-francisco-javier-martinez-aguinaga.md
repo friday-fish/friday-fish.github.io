@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-02-04'
+date: '2021-02-04'
 title: 'Flexibility in contact 3-manifolds: From contactomorphisms to legendrian knots'
 speaker: Francisco Javier Martinez Aguinaga
 abstract: >

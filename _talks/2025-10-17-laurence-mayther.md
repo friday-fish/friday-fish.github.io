@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-10-17'
+date: '2025-10-17'
 title: New h-Principles in [split]G2, Symplectic, Contact and Other Geometries
 speaker: Laurence Mayther
 affiliation: Cambridge University

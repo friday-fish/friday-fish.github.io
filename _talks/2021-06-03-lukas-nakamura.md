@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-06-03'
+date: '2021-06-03'
 title: Small energy isotopies of loose Legendrian submanifolds
 speaker: Lukas Nakamura
 abstract: >

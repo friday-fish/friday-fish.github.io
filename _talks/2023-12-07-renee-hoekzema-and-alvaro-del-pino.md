@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2023-12-07'
+date: '2023-12-07'
 title: Reading seminar on stable homotopy theory V
 speaker: Renee Hoekzema and Álvaro del Pino
 abstract: >

@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-08-06'
+date: '2020-08-06'
 title: Poisson non-degeneracy of the Lie algebra so(3,1).
 speaker: Florian Zeiser
 abstract: >

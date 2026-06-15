@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-11-05'
+date: '2020-11-05'
 title: Vortex sheets in ideal fluids and coadjoint orbits
 speaker: Cornelia Vizman
 abstract: >

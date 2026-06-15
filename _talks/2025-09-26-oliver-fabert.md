@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-09-26'
+date: '2025-09-26'
 title: Topology, symplectic topology, … what’s next?
 speaker: Oliver Fabert
 affiliation: VU

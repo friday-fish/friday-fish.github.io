@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2023-01-19'
+date: '2023-01-19'
 title: C^0-rigidity of presymplectic embeddings
 speaker: Dusan Joksimovic
 abstract: >

@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-06-12'
+date: '2025-06-12'
 title: Everything you wanted to know about gerbes but were afraid to ask
 speaker: Gil Cavalcanti
 abstract: >

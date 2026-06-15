@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-05-20'
+date: '2021-05-20'
 title: Exploring the modular class of Dirac structures
 speaker: Charlotte  Kirchhoff-Lukat
 abstract: >

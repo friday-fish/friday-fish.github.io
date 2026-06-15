@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2024-11-07'
+date: '2024-11-07'
 title: >-
   Instantaneous Hamiltonian diplaceability and arbitrary squeezability for
   critically negligible sets

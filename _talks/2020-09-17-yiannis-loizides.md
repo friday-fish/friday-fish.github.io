@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-09-17'
+date: '2020-09-17'
 title: Weighted normal bundles
 speaker: Yiannis Loizides
 abstract: >

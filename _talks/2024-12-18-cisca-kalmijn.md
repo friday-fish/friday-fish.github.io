@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2024-12-18'
+date: '2024-12-18'
 title: >-
   A symplectic approach to Gromov-Witten invariants part II: Semipositivity,
   (Gromov–Witten) pseudocycles and Gromov–Witten invariants

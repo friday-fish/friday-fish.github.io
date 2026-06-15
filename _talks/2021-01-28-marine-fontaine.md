@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-01-28'
+date: '2021-01-28'
 title: Real Forms of Holomorphic Hamiltonian Systems
 speaker: Marine Fontaine
 abstract: >

@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2023-11-09'
+date: '2023-11-09'
 title: Reading seminar on stable homotopy theory III
 speaker: Michael Jung and Alba Sendón
 abstract: >

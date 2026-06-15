@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2026-02-27'
+date: '2026-02-27'
 title: Poisson geometry of the space of truncated polynomials
 start_time: '11:00'
 end_time: '13:00'

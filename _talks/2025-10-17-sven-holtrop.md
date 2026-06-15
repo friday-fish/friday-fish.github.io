@@ -1,7 +1,7 @@
 ---
 layout: talk
 seminar: seiberg-witten
-talk_date: '2025-10-17'
+date: '2025-10-17'
 title: Spin^c structures and Spinors
 speaker: Sven Holtrop
 abstract: >

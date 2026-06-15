@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2024-11-21'
+date: '2024-11-21'
 title: b-geometry and asymptotic analysis
 speaker: Michal Wrochna and Juri Sampieri Bjornsson
 abstract: >

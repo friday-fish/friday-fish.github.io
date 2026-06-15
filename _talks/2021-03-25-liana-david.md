@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-03-25'
+date: '2021-03-25'
 title: T-duality for transitive Courant algebroids
 speaker: Liana David
 abstract: >

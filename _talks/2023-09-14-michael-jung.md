@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2023-09-14'
+date: '2023-09-14'
 title: Cohomotopy groups in co-degree one
 speaker: Michael Jung
 abstract: >

@@ -1,7 +1,7 @@
 ---
 layout: talk
 seminar: seiberg-witten
-talk_date: '2025-12-05'
+date: '2025-12-05'
 title: Seiberg-Witten invariants of Kähler and symplectic manifolds
 start_time: '15:00'
 end_time: '17:00'

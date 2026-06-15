@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-09-24'
+date: '2020-09-24'
 title: Moment maps in multisymplectic geometry
 speaker: Leyli Mammadova
 abstract: >

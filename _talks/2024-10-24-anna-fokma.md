@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2024-10-24'
+date: '2024-10-24'
 title: 'Jiggling: an h-principle without homotopical assumptions'
 speaker: Anna Fokma
 abstract: >

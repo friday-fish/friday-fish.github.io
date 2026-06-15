@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-10-15'
+date: '2020-10-15'
 title: Deformations of Lagrangian submanifolds in log-symplectic manifolds
 speaker: Stephane Geudens
 abstract: >

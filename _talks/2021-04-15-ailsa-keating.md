@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-04-15'
+date: '2021-04-15'
 title: Two-variable singularities and symplectic topology
 speaker: Ailsa Keating
 abstract: >

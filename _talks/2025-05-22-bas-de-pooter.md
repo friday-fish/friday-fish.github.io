@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-05-22'
+date: '2025-05-22'
 title: >-
   Coarse minimality for non-convex star-shaped contact surfaces in the cotangent
   bundle

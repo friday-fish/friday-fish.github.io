@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2026-06-19'
+date: '2026-06-19'
 title: Realizability of homology with local coefficients
 start_time: '15:00'
 end_time: '17:00'

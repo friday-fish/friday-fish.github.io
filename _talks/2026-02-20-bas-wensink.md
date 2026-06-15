@@ -1,7 +1,7 @@
 ---
 layout: talk
 seminar: seiberg-witten
-talk_date: '2026-02-20'
+date: '2026-02-20'
 title: Surgeries, Seiberg-Witten and smooth structures
 start_time: '15:00'
 end_time: '17:00'

@@ -1,7 +1,7 @@
 ---
 layout: talk
 seminar: seiberg-witten
-talk_date: '2025-11-28'
+date: '2025-11-28'
 title: Transversality, orientability, defining the invariant
 start_time: '15:00'
 end_time: '17:00'

@@ -1,7 +1,7 @@
 ---
 layout: talk
 seminar: seiberg-witten
-talk_date: '2025-10-10'
+date: '2025-10-10'
 title: Clifford Algebras, Spin Groups and Spinor Representations
 speaker: Jaime Pedregal Pastor
 abstract: >

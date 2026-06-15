@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2026-06-05'
+date: '2026-06-05'
 title: Bifurcational aspects of KAM theory
 start_time: '11:00'
 end_time: '13:00'

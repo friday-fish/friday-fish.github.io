@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2026-06-05'
+date: '2026-06-05'
 title: A higher index theorem on manifolds with boundary
 start_time: '15:00'
 end_time: '17:00'

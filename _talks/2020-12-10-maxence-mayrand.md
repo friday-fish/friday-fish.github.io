@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-12-10'
+date: '2020-12-10'
 title: Hyperkähler realizations of holomorphic Poisson surfaces
 speaker: Maxence Mayrand
 abstract: >

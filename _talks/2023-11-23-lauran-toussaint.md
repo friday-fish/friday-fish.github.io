@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2023-11-23'
+date: '2023-11-23'
 title: Reading seminar on stable homotopy theory IV
 speaker: Lauran Toussaint
 abstract: >

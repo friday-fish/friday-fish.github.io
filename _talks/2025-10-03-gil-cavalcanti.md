@@ -1,7 +1,7 @@
 ---
 layout: talk
 seminar: seiberg-witten
-talk_date: '2025-10-03'
+date: '2025-10-03'
 title: Introduction to four-manifolds
 speaker: Gil Cavalcanti
 abstract: >

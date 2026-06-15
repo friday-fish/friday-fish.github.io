@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-10-22'
+date: '2020-10-22'
 title: On singular cotangent homotopies coming from the Poisson Sigma Model
 speaker: Alejandro Cabrera
 abstract: >

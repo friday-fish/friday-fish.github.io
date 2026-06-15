@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-01-30'
+date: '2025-01-30'
 title: >-
   An Algebro-Geometric Approach to Gromov–Witten Invariants, part II: Virtual
   Fundamental Classes and Gromov–Witten Invariants

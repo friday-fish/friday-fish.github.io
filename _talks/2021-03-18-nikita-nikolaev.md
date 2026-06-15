@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-03-18'
+date: '2021-03-18'
 title: Abelianisation of Meromorphic GL(2,C)-Connections on Riemann Surfaces
 speaker: Nikita Nikolaev
 abstract: >

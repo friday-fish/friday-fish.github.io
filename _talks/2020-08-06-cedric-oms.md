@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-08-06'
+date: '2020-08-06'
 title: The singular Weinstein conjecture
 speaker: Cédric Oms
 abstract: >

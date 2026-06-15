@@ -1,7 +1,7 @@
 ---
 layout: talk
 seminar: seiberg-witten
-talk_date: '2025-11-14'
+date: '2025-11-14'
 title: Elliptic PDE theory on manifolds and the dimension of the Seiberg-Witten moduli space
 start_time: '15:00'
 end_time: '17:00'

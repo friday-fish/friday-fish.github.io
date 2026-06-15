@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-04-03'
+date: '2025-04-03'
 title: Which symplectic forms on S2xS2 have Lagrangian Klein bottles?
 speaker: Nikolas Adaloglou
 abstract: |+

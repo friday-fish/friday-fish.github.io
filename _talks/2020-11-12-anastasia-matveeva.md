@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-11-12'
+date: '2020-11-12'
 title: A singular symplectic slice theorem
 speaker: Anastasia Matveeva
 abstract: >

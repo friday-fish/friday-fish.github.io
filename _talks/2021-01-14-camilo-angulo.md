@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-01-14'
+date: '2021-01-14'
 title: A cohomological proof for the integrability of strict Lie 2-algebras
 speaker: Camilo Angulo
 abstract: >

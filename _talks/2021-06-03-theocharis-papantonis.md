@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-06-03'
+date: '2021-06-03'
 title: >-
   On representations up to homotopy of Lie n-algebroids and higher VB-algebroid
   structures

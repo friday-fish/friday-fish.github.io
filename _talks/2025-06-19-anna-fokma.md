@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-06-19'
+date: '2025-06-19'
 title: Wrinkling and Haefliger structures
 speaker: Anna Fokma
 abstract: >

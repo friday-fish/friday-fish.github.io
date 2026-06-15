@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2024-01-25'
+date: '2024-01-25'
 title: On pseudo-metrics on the space of Legendrian submanifolds
 speaker: Lukas Nakamura
 abstract: >

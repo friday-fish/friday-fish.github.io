@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-12-17'
+date: '2020-12-17'
 title: Symmetry, Cartan connections and Rigidity
 speaker: Katharina Neusser
 abstract: >

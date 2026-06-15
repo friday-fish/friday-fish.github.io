@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2024-11-28'
+date: '2024-11-28'
 title: sc-geometry and scattering Dirac operator
 speaker: Ashkan Kyaee
 abstract: >

@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2025-02-27'
+date: '2025-02-27'
 title: 'Differentiable Stacks III: Descent and Stacks'
 speaker: Douwe Hoekstra
 abstract: >

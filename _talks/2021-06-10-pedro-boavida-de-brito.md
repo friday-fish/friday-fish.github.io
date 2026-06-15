@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-06-10'
+date: '2021-06-10'
 title: Scanning embeddings by points
 speaker: Pedro Boavida de Brito
 abstract: >

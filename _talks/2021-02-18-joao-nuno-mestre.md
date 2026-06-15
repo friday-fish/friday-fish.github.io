@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2021-02-18'
+date: '2021-02-18'
 title: The deformation cohomology of a symplectic groupoid
 speaker: João Nuno Mestre
 abstract: >

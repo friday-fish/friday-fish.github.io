@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2020-08-27'
+date: '2020-08-27'
 title: Lie-Hamilton systems and their role in the current Covid pandemic
 speaker: Cristina Sardón
 abstract: >

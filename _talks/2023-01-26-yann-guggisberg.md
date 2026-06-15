@@ -1,6 +1,6 @@
 ---
 layout: talk
-talk_date: '2023-01-26'
+date: '2023-01-26'
 title: Recognition of objects and representability of symplectic capacities
 speaker: Yann Guggisberg
 abstract: >

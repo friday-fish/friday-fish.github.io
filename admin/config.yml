@@ -13,10 +13,10 @@ collections:
     summary: "{{speaker}}: {{title}} (on {{date | date('YYYY-MM-DD')}})"
     editor:
       preview: false
-    slug: "{{year}}-{{month}}-{{day}}-{{speaker}}"
+    slug: "{{date | date('YYYY-MM-DD')}}-{{speaker}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "talk" }
-      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Date", name: "date", widget: "datetime", type: date }
       - { label: "Starting time", name: "start_time", widget: "string", default: "15:00" }
       - { label: "Ending time", name: "end_time", widget: "string", default: "17:00" }
       - { label: "Location", name: "location", widget: "string", default: "HFG 707" }

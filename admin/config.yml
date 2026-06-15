@@ -10,12 +10,12 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{speaker}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "talk" }
-      - { label: "Talk date", name: "talk_date", widget: "datetime" }
+      - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Starting time", name: "start_time", widget: "string", default: "15:00" }
       - { label: "Ending time", name: "end_time", widget: "string", default: "17:00" }
       - { label: "Location", name: "location", widget: "string", default: "HFG 707" }
       - { label: "Speaker", name: "speaker", widget: "string" }
-      - { label: "Affiliation", name: "affiliation", widget: "string" }
+      - { label: "Affiliation", name: "affiliation", widget: "string", required: "false" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Abstract", name: "abstract", widget: "richtext" }
-      - { label: "Video URL", name: "video_url", widget: "string" }
+      - { label: "Video URL", name: "video_url", widget: "string", required: "false" }

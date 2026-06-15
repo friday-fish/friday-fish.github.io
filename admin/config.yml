@@ -1,7 +1,9 @@
 backend:
   name: github
   repo: friday-fish/friday-fish.github.io
-
+output:
+  yaml:
+    quote: double
 media_folder: "notes"
 collections:
   - name: "talk"
@@ -11,6 +13,7 @@ collections:
     editor:
       preview: false
     slug: "{{year}}-{{month}}-{{day}}-{{speaker}}"
+    summary: "{{speaker}}: {{title}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "talk" }
       - { label: "Date", name: "date", widget: "datetime" }

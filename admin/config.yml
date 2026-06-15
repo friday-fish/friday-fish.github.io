@@ -17,7 +17,7 @@ collections:
       - { label: "Ending time", name: "end_time", widget: "string", default: "17:00" }
       - { label: "Location", name: "location", widget: "string", default: "HFG 707" }
       - { label: "Speaker", name: "speaker", widget: "string" }
-      - { label: "Affiliation", name: "affiliation", widget: "string", required: "false" }
+      - { label: "Affiliation", name: "affiliation", widget: "string", required: false }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Abstract", name: "abstract", widget: "richtext" }
-      - { label: "Video URL", name: "video_url", widget: "string", required: "false" }
+      - { label: "Video URL", name: "video_url", widget: "string", required: false }

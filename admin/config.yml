@@ -7,6 +7,8 @@ collections:
     label: "Talk"
     folder: "_talks"
     create: true
+    editor:
+      preview: false
     slug: "{{year}}-{{month}}-{{day}}-{{speaker}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "talk" }

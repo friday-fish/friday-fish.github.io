@@ -1,6 +1,7 @@
 backend:
-  name: git-gateway
-  branch: main
+  name: github
+  repo: friday-fish/friday-fish.github.io
+
 media_folder: "notes"
 collections:
   - name: "talk"

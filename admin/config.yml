@@ -25,3 +25,18 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Abstract", name: "abstract", widget: "richtext" }
       - { label: "Video URL", name: "video_url", widget: "string", required: false }
+      - { label: "Reading seminar", name: "seminar", widget: "relation", required: false, collection: "reading-seminar", value_field: "key", display_fields: [ "title" ] }
+  - name: "reading-seminar"
+    label: "Reading seminar"
+    folder: "_reading_seminars"
+    create: true
+    summary: "{{title}}"
+    editor:
+      preview: false
+    slug: "{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "reading_seminar" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Key", name: "key", widget: "string" }
+      - { label: "Active", name: "active", widget: "boolean", default: true }
+      - { label: "Body", name: "body", widget: "richtext" }

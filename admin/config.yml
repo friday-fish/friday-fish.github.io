@@ -2,6 +2,7 @@ backend:
   name: github
   repo: friday-fish/friday-fish.github.io
 output:
+  omit_empty_optional_fields: true
   yaml:
     quote: double
 media_folder: "notes"
@@ -38,5 +39,19 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "reading_seminar" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Key", name: "key", widget: "string" }
+      - { label: "Active", name: "active", widget: "boolean", default: true }
+      - { label: "Body", name: "body", widget: "richtext" }
+  - name: "announcements"
+    label: "Announcements"
+    folder: "_posts"
+    create: true
+    summary: "{{title}}"
+    editor:
+      preview: false
+    slug: "{{date | date('YYYY-MM-DD')}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Date", name: "date", widget: "datetime", type: "date" }
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "Active", name: "active", widget: "boolean", default: true }
       - { label: "Body", name: "body", widget: "richtext" }

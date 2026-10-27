@@ -1,8 +1,8 @@
 ---
 layout: "talk"
 date: "2026-10-30"
-start_time: "15:00"
-end_time: "17:00"
+start_time: "13:00"
+end_time: "15:00"
 location: "HFG 707"
 speaker: "Bas Wensink"
 title: "Complex structures on the 6-sphere: Fibre at infinity"
